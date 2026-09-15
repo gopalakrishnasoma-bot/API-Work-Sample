@@ -20,9 +20,9 @@
   --border-strong:#d4d2ec;
   --accent:#6355e0;
   --accent-ink:#5342d6;
-  --code-bg:#1c1b2e;
-  --code-ink:#e7e6f5;
-  --code-border:#2e2c47;
+  --code-bg:#f3f2fb;
+  --code-ink:#1c1b2e;
+  --code-border:#dcdaf0;
   --get:#2f7cf6;
   --post:#16a37a;
   --patch:#d98c0a;
@@ -113,11 +113,11 @@ tr:nth-child(even) td{background:#fbfaff;}
 tr:last-child td{border-bottom:none;}
 
 code{background:#efedfc; border:1px solid var(--border); padding:2px 6px; border-radius:6px; font-size:0.85em; color:var(--accent-ink);}
-pre{background:var(--code-bg); color:var(--code-ink); border:none; padding:16px 18px; border-radius:14px; overflow-x:auto; font-size:12.5px; line-height:1.65; margin:0 0 14px; position:relative;}
+pre{background:var(--code-bg); color:var(--code-ink); border:1px solid var(--code-border); padding:16px 18px; border-radius:14px; overflow-x:auto; font-size:12.5px; line-height:1.65; margin:0 0 14px; position:relative;}
 pre code{background:none; border:none; padding:0; color:inherit; font-size:1em;}
 .code-block{position:relative;}
-.code-block .copy-btn{position:absolute; top:10px; right:10px; color:#a5a3c4; background:rgba(255,255,255,0.08);}
-.code-block .copy-btn:hover{color:#fff; background:rgba(255,255,255,0.16);}
+.code-block .copy-btn{position:absolute; top:10px; right:10px; color:var(--muted); background:rgba(28,27,46,0.06);}
+.code-block .copy-btn:hover{color:var(--ink); background:rgba(28,27,46,0.12);}
 
 .diagram{background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px; overflow-x:auto; margin:16px 0 24px;}
 .diagram pre{background:none; border:none; color:var(--ink); padding:0; margin:0; font-size:12.5px;}
